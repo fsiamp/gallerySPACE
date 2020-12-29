@@ -21,7 +21,7 @@ gallerySPACE makes use of Keystone JS web application framework.
 In order to build gallerySPACE at first download the git package in your local machine and then build project through keystone:
 
 ```
-git clone https://github.com/Web2ART/gallerySPACE.git
+git clone https://github.com/fsiamp/gallerySPACE.git
 cd gallerySPACE
 node keystone
 ```
