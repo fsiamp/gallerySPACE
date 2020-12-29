@@ -1,0 +1,21 @@
+extends ../layouts/default
+
+block content
+	.container: .jumbotron
+		img(src='/images/xov60t1498908443.png')
+		h1 Welcome
+		p gallerySPACE is a user identity and gallery management system
+		p It includes the latest versions of
+			| <a href='http://getbootstrap.com/' target='_blank'>Bootstrap</a>
+			| and <a href='http://www.jquery.com/' target='_blank'>jQuery</a>.
+		p The current site provides the ability to store galleries and manage users in a convenient and user-friendly way.
+		hr
+		if user && user.canAccessKeystone
+			p
+				a(href='/keystone').btn.btn-lg.btn-primary Open the Admin UI
+		else
+			p
+				a(href='/keystone/signin', style='margin-right: 10px').btn.btn-lg.btn-primary Sign in
+				|  to use the Admin UI.
+		hr
+		p Remember to star <a href='https://github.com/fsiamp/gallerySPACE' target='_blank'>gallerySPACE on GitHub</a>.
