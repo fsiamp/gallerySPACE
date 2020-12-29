@@ -12,9 +12,9 @@ gallerySPACE makes use of Keystone JS web application framework.
 
 <h3>Screenshots</h3>
 
-![alt tag](https://raw.githubusercontent.com/Web2ART/gallerySPACE/master/home_screen.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/gallerySPACE/master/home_screen.png)
 
-![alt tag](https://raw.githubusercontent.com/Web2ART/gallerySPACE/master/signin_panel.png)
+![alt tag](https://raw.githubusercontent.com/fsiamp/gallerySPACE/master/signin_panel.png)
 
 <h3>Usage</h3>
 
